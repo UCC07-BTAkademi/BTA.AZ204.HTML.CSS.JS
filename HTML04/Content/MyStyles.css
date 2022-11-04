@@ -1,0 +1,51 @@
+﻿body
+{
+    box-sizing:border-box;
+}
+
+span
+{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    text-decoration: underline;
+    
+}
+
+.spanID{
+    font-size:30px;
+}
+
+.spanClass{
+    font-size:20px;
+}
+
+.divClass1{
+    margin-left: 30px;
+    padding-left : 50px; /* yani div in içine yazacağın ifadeleri 50 pixel boşluk vererek yaz */
+    border:3px solid red;
+    width:400px;
+    background-color:gainsboro;
+}
+
+div{
+display:flex;
+}
+
+.div1
+{
+
+    width:48%;
+
+    background-color: yellow;
+    height:30px;
+}
+
+.div2
+{
+    width:48%;
+
+
+    background-color: gray;
+
+}
